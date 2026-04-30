@@ -98,214 +98,268 @@
                         </div>
                     </div>
                 </div>
-        </section>
+            </section>
 
-        </main>
+        
 
-        <!-- Skills Section -->
-            
-        <section class="skills" id="skills" aria-labelledby="skills-title">
-        <div class="container">
-            <div class="skills__header">
-            <div>
-                <p class="eyebrow">Core Competencies</p>
-                <h2 class="skills__heading" id="skills-title">
-                What I bring<br>to the <em>table</em>
+            <!-- Skills Section -->
+                
+            <section class="skills" id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="skills__header">
+                <div>
+                    <p class="eyebrow">Core Competencies</p>
+                    <h2 class="skills__heading" id="skills-title">
+                    What I bring<br>to the <em>table</em>
+                    </h2>
+                </div>
+                <p class="skills__desc">
+                    The technical foundation required to pass the DecodeLabs quality gate —
+                    six disciplines every professional frontend developer must master first.
+                </p>
+                </div>
+
+                <div class="skills__grid">
+
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true">🏗</div>
+                    <h3 class="skill-card__title">Semantic HTML</h3>
+                    <p class="skill-card__desc">
+                    Proper landmarks — &lt;header&gt;, &lt;main&gt;, &lt;article&gt;, &lt;footer&gt;.
+                    One &lt;h1&gt; per page. Tags carry meaning, not just shape.
+                    </p>
+                    <div class="skill-card__bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="HTML proficiency 88 percent">
+                    <div class="skill-card__fill" style="width:88%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true">🎨</div>
+                    <h3 class="skill-card__title">CSS Engineering</h3>
+                    <p class="skill-card__desc">
+                    External stylesheets only. DRY principle with BEM. No inline styles —
+                    separation of concerns is non-negotiable.
+                    </p>
+                    <div class="skill-card__bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" aria-label="CSS proficiency 83 percent">
+                    <div class="skill-card__fill" style="width:83%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true">📐</div>
+                    <h3 class="skill-card__title">Layout Systems</h3>
+                    <p class="skill-card__desc">
+                    CSS Grid for macro page architecture. Flexbox for micro component alignment.
+                    Right tool for the right dimension — always.
+                    </p>
+                    <div class="skill-card__bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Layout proficiency 80 percent">
+                    <div class="skill-card__fill" style="width:80%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true">♿</div>
+                    <h3 class="skill-card__title">Accessibility</h3>
+                    <p class="skill-card__desc">
+                    Alt text on every image. 4.5:1 contrast ratio. Accessible labels.
+                    The web must be perceivable by all users and assistive technologies.
+                    </p>
+                    <div class="skill-card__bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" aria-label="Accessibility proficiency 76 percent">
+                    <div class="skill-card__fill" style="width:76%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true">🗺</div>
+                    <h3 class="skill-card__title">Information Architecture</h3>
+                    <p class="skill-card__desc">
+                    Sitemap before code. Navigation depth under 3 levels. Structure data
+                    for findability — entropy is the enemy.
+                    </p>
+                    <div class="skill-card__bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="IA proficiency 78 percent">
+                    <div class="skill-card__fill" style="width:78%"></div>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true">✅</div>
+                    <h3 class="skill-card__title">Quality Validation</h3>
+                    <p class="skill-card__desc">
+                    W3C Validator with zero errors. Lighthouse audit. Semantic landmark review.
+                    Code does not ship until it passes every gate.
+                    </p>
+                    <div class="skill-card__bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" aria-label="Validation proficiency 86 percent">
+                    <div class="skill-card__fill" style="width:86%"></div>
+                    </div>
+                </article>
+
+                </div>
+            </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="projects__top">
+                <div>
+                    <p class="eyebrow">My Work</p>
+                    <h2 class="projects__heading" id="projects-title">Project <em>Milestones</em></h2>
+                </div>
+                <span class="chip">DecodeLabs · Batch 2026</span>
+                </div>
+
+                <div class="projects__grid">
+
+                <article class="proj-card proj-card--tall">
+                    <div class="proj-card__thumb proj-card__thumb--a" role="img" aria-label="Static Webpage Design — green natural theme preview">🌿</div>
+                    <div class="proj-card__body">
+                    <div class="proj-card__meta">
+                        <span class="chip chip--green">Project 1 · Static Design</span>
+                        <span class="chip chip--terra">🛡 Badge Earned</span>
+                    </div>
+                    <h3 class="proj-card__title">Static Webpage Design</h3>
+                    <p class="proj-card__desc">
+                        A fully semantic, accessible, and W3C-valid personal portfolio built with pure HTML
+                        and CSS. Demonstrates information architecture, document heading hierarchy,
+                        CSS Grid + Flexbox layouts, the DRY principle, and A11y standards — the essential
+                        foundation every frontend developer must master before touching dynamic logic.
+                    </p>
+                    <a href="#" class="proj-card__link" aria-label="View Static Webpage Design project">View Project <span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+
+                <article class="proj-card">
+                    <div class="proj-card__thumb proj-card__thumb--b" role="img" aria-label="CSS Layout Challenge — coming soon">🪵</div>
+                    <div class="proj-card__body">
+                    <div class="proj-card__meta"><span class="chip">Project 2 · Coming Soon</span></div>
+                    <h3 class="proj-card__title">CSS Layout Challenge</h3>
+                    <p class="proj-card__desc">Responsive grid system with advanced Flexbox alignment patterns.</p>
+                    </div>
+                </article>
+
+                <article class="proj-card">
+                    <div class="proj-card__thumb proj-card__thumb--c" role="img" aria-label="Responsive Design — locked">🌾</div>
+                    <div class="proj-card__body">
+                    <div class="proj-card__meta"><span class="chip">Project 3 · Locked</span></div>
+                    <h3 class="proj-card__title">Responsive Design</h3>
+                    <p class="proj-card__desc">Mobile-first approach with fluid typography and breakpoint logic.</p>
+                    </div>
+                </article>
+
+                </div>
+            </div>
+            </section>
+
+            <!-- Philosophy Section -->
+            <section class="philosophy" id="philosophy" aria-labelledby="philosophy-title">
+            <div class="philosophy__inner container">
+
+                <div>
+                <p class="philosophy__eyebrow">Engineering Mindset</p>
+                <h2 class="philosophy__heading" id="philosophy-title">
+                    The IPO Model:<br>How I solve<br><em>every problem.</em>
                 </h2>
-            </div>
-            <p class="skills__desc">
-                The technical foundation required to pass the DecodeLabs quality gate —
-                six disciplines every professional frontend developer must master first.
-            </p>
-            </div>
-
-            <div class="skills__grid">
-
-            <article class="skill-card">
-                <div class="skill-card__icon" aria-hidden="true">🏗</div>
-                <h3 class="skill-card__title">Semantic HTML</h3>
-                <p class="skill-card__desc">
-                Proper landmarks — &lt;header&gt;, &lt;main&gt;, &lt;article&gt;, &lt;footer&gt;.
-                One &lt;h1&gt; per page. Tags carry meaning, not just shape.
+                <p class="philosophy__text">
+                    Before writing a single fix, I isolate which phase broke down.
+                    Every rendering issue maps to exactly one of three stages.
                 </p>
-                <div class="skill-card__bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="HTML proficiency 88 percent">
-                <div class="skill-card__fill" style="width:88%"></div>
+                <ul class="checklist" role="list">
+                    <li class="checklist__item">
+                    <span class="checklist__tick" aria-hidden="true">✓</span>
+                    <span>Structure before code — sitemap defines hierarchy first.</span>
+                    </li>
+                    <li class="checklist__item">
+                    <span class="checklist__tick" aria-hidden="true">✓</span>
+                    <span>Div soup is the enemy — every element must carry semantic meaning.</span>
+                    </li>
+                    <li class="checklist__item">
+                    <span class="checklist__tick" aria-hidden="true">✓</span>
+                    <span>No inline styles — separation of concerns is law.</span>
+                    </li>
+                    <li class="checklist__item">
+                    <span class="checklist__tick" aria-hidden="true">✓</span>
+                    <span>The frontend is the only part of the system the world ever sees.</span>
+                    </li>
+                </ul>
                 </div>
-            </article>
 
-            <article class="skill-card">
-                <div class="skill-card__icon" aria-hidden="true">🎨</div>
-                <h3 class="skill-card__title">CSS Engineering</h3>
-                <p class="skill-card__desc">
-                External stylesheets only. DRY principle with BEM. No inline styles —
-                separation of concerns is non-negotiable.
-                </p>
-                <div class="skill-card__bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" aria-label="CSS proficiency 83 percent">
-                <div class="skill-card__fill" style="width:83%"></div>
+                <div class="ipo-list" role="list" aria-label="IPO model stages">
+                <div class="ipo-item" role="listitem">
+                    <span class="ipo-item__num" aria-hidden="true">01</span>
+                    <div>
+                    <p class="ipo-item__label">Input</p>
+                    <p class="ipo-item__desc">Assets — images, icons, and text content gathered and validated before any HTML is written.</p>
+                    </div>
                 </div>
-            </article>
-
-            <article class="skill-card">
-                <div class="skill-card__icon" aria-hidden="true">📐</div>
-                <h3 class="skill-card__title">Layout Systems</h3>
-                <p class="skill-card__desc">
-                CSS Grid for macro page architecture. Flexbox for micro component alignment.
-                Right tool for the right dimension — always.
-                </p>
-                <div class="skill-card__bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Layout proficiency 80 percent">
-                <div class="skill-card__fill" style="width:80%"></div>
+                <div class="ipo-item" role="listitem">
+                    <span class="ipo-item__num" aria-hidden="true">02</span>
+                    <div>
+                    <p class="ipo-item__label">Process</p>
+                    <p class="ipo-item__desc">CSS Engineering — the Box Model, cascade, specificity, and layout logic applied with precision.</p>
+                    </div>
                 </div>
-            </article>
-
-            <article class="skill-card">
-                <div class="skill-card__icon" aria-hidden="true">♿</div>
-                <h3 class="skill-card__title">Accessibility</h3>
-                <p class="skill-card__desc">
-                Alt text on every image. 4.5:1 contrast ratio. Accessible labels.
-                The web must be perceivable by all users and assistive technologies.
-                </p>
-                <div class="skill-card__bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" aria-label="Accessibility proficiency 76 percent">
-                <div class="skill-card__fill" style="width:76%"></div>
+                <div class="ipo-item" role="listitem">
+                    <span class="ipo-item__num" aria-hidden="true">03</span>
+                    <div>
+                    <p class="ipo-item__label">Output</p>
+                    <p class="ipo-item__desc">The View — a pixel-perfect render that passes W3C validation and Lighthouse audit at 90+.</p>
+                    </div>
                 </div>
-            </article>
-
-            <article class="skill-card">
-                <div class="skill-card__icon" aria-hidden="true">🗺</div>
-                <h3 class="skill-card__title">Information Architecture</h3>
-                <p class="skill-card__desc">
-                Sitemap before code. Navigation depth under 3 levels. Structure data
-                for findability — entropy is the enemy.
-                </p>
-                <div class="skill-card__bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="IA proficiency 78 percent">
-                <div class="skill-card__fill" style="width:78%"></div>
                 </div>
-            </article>
-
-            <article class="skill-card">
-                <div class="skill-card__icon" aria-hidden="true">✅</div>
-                <h3 class="skill-card__title">Quality Validation</h3>
-                <p class="skill-card__desc">
-                W3C Validator with zero errors. Lighthouse audit. Semantic landmark review.
-                Code does not ship until it passes every gate.
-                </p>
-                <div class="skill-card__bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" aria-label="Validation proficiency 86 percent">
-                <div class="skill-card__fill" style="width:86%"></div>
-                </div>
-            </article>
 
             </div>
-        </div>
-        </section>
+            </section>
 
-        <!-- Projects Section -->
-        <section class="projects" id="projects" aria-labelledby="projects-title">
-        <div class="container">
-            <div class="projects__top">
-            <div>
-                <p class="eyebrow">My Work</p>
-                <h2 class="projects__heading" id="projects-title">Project <em>Milestones</em></h2>
-            </div>
-            <span class="chip">DecodeLabs · Batch 2026</span>
-            </div>
+            <!-- ── CONTACT ── -->
+            <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="contact__inner container">
 
-            <div class="projects__grid">
-
-            <article class="proj-card proj-card--tall">
-                <div class="proj-card__thumb proj-card__thumb--a" role="img" aria-label="Static Webpage Design — green natural theme preview">🌿</div>
-                <div class="proj-card__body">
-                <div class="proj-card__meta">
-                    <span class="chip chip--green">Project 1 · Static Design</span>
-                    <span class="chip chip--terra">🛡 Badge Earned</span>
-                </div>
-                <h3 class="proj-card__title">Static Webpage Design</h3>
-                <p class="proj-card__desc">
-                    A fully semantic, accessible, and W3C-valid personal portfolio built with pure HTML
-                    and CSS. Demonstrates information architecture, document heading hierarchy,
-                    CSS Grid + Flexbox layouts, the DRY principle, and A11y standards — the essential
-                    foundation every frontend developer must master before touching dynamic logic.
-                </p>
-                <a href="#" class="proj-card__link" aria-label="View Static Webpage Design project">View Project <span aria-hidden="true">→</span></a>
-                </div>
-            </article>
-
-            <article class="proj-card">
-                <div class="proj-card__thumb proj-card__thumb--b" role="img" aria-label="CSS Layout Challenge — coming soon">🪵</div>
-                <div class="proj-card__body">
-                <div class="proj-card__meta"><span class="chip">Project 2 · Coming Soon</span></div>
-                <h3 class="proj-card__title">CSS Layout Challenge</h3>
-                <p class="proj-card__desc">Responsive grid system with advanced Flexbox alignment patterns.</p>
-                </div>
-            </article>
-
-            <article class="proj-card">
-                <div class="proj-card__thumb proj-card__thumb--c" role="img" aria-label="Responsive Design — locked">🌾</div>
-                <div class="proj-card__body">
-                <div class="proj-card__meta"><span class="chip">Project 3 · Locked</span></div>
-                <h3 class="proj-card__title">Responsive Design</h3>
-                <p class="proj-card__desc">Mobile-first approach with fluid typography and breakpoint logic.</p>
-                </div>
-            </article>
-
-            </div>
-        </div>
-        </section>
-
-        <!-- Philosophy Section -->
-        <section class="philosophy" id="philosophy" aria-labelledby="philosophy-title">
-        <div class="philosophy__inner container">
-
-            <div>
-            <p class="philosophy__eyebrow">Engineering Mindset</p>
-            <h2 class="philosophy__heading" id="philosophy-title">
-                The IPO Model:<br>How I solve<br><em>every problem.</em>
-            </h2>
-            <p class="philosophy__text">
-                Before writing a single fix, I isolate which phase broke down.
-                Every rendering issue maps to exactly one of three stages.
-            </p>
-            <ul class="checklist" role="list">
-                <li class="checklist__item">
-                <span class="checklist__tick" aria-hidden="true">✓</span>
-                <span>Structure before code — sitemap defines hierarchy first.</span>
-                </li>
-                <li class="checklist__item">
-                <span class="checklist__tick" aria-hidden="true">✓</span>
-                <span>Div soup is the enemy — every element must carry semantic meaning.</span>
-                </li>
-                <li class="checklist__item">
-                <span class="checklist__tick" aria-hidden="true">✓</span>
-                <span>No inline styles — separation of concerns is law.</span>
-                </li>
-                <li class="checklist__item">
-                <span class="checklist__tick" aria-hidden="true">✓</span>
-                <span>The frontend is the only part of the system the world ever sees.</span>
-                </li>
-            </ul>
-            </div>
-
-            <div class="ipo-list" role="list" aria-label="IPO model stages">
-            <div class="ipo-item" role="listitem">
-                <span class="ipo-item__num" aria-hidden="true">01</span>
                 <div>
-                <p class="ipo-item__label">Input</p>
-                <p class="ipo-item__desc">Assets — images, icons, and text content gathered and validated before any HTML is written.</p>
+                <p class="eyebrow">Let's Connect</p>
+                <h2 class="contact__heading" id="contact-title">
+                    Ready to build<br>something <em>great?</em>
+                </h2>
+                <p class="contact__desc">
+                    Whether you're reviewing my Project 1 submission or want to collaborate —
+                    I'm available and eager to prove my skills.
+                </p>
+                <nav class="contact__links" aria-label="Contact details">
+                    <a href="mailto:decodelabs.tech@gmail.com" class="contact__link">
+                    <span class="contact__link-icon" aria-hidden="true">✉</span>
+                    decodelabs.tech@gmail.com
+                    </a>
+                    <a href="tel:+918933006408" class="contact__link">
+                    <span class="contact__link-icon" aria-hidden="true">📞</span>
+                    +91 89330 06408
+                    </a>
+                    <a href="https://www.decodelabs.tech" class="contact__link" target="_blank" rel="noopener noreferrer">
+                    <span class="contact__link-icon" aria-hidden="true">🌐</span>
+                    www.decodelabs.tech
+                    </a>
+                </nav>
                 </div>
-            </div>
-            <div class="ipo-item" role="listitem">
-                <span class="ipo-item__num" aria-hidden="true">02</span>
-                <div>
-                <p class="ipo-item__label">Process</p>
-                <p class="ipo-item__desc">CSS Engineering — the Box Model, cascade, specificity, and layout logic applied with precision.</p>
-                </div>
-            </div>
-            <div class="ipo-item" role="listitem">
-                <span class="ipo-item__num" aria-hidden="true">03</span>
-                <div>
-                <p class="ipo-item__label">Output</p>
-                <p class="ipo-item__desc">The View — a pixel-perfect render that passes W3C validation and Lighthouse audit at 90+.</p>
-                </div>
-            </div>
-            </div>
 
-        </div>
-        </section>
+                <div>
+                <div class="form" role="form" aria-label="Contact form">
+                    <div class="form__group">
+                    <label class="form__label" for="name">Your Name</label>
+                    <input class="form__input" type="text" id="name" name="name" placeholder="Jane Smith" autocomplete="name" />
+                    </div>
+                    <div class="form__group">
+                    <label class="form__label" for="email">Email Address</label>
+                    <input class="form__input" type="email" id="email" name="email" placeholder="jane@example.com" autocomplete="email" />
+                    </div>
+                    <div class="form__group">
+                    <label class="form__label" for="message">Message</label>
+                    <textarea class="form__textarea" id="message" name="message" placeholder="Tell me about your project or leave a review…"></textarea>
+                    </div>
+                    <button type="button" class="btn btn--solid" style="align-self:flex-start">
+                    Send Message <span aria-hidden="true">→</span>
+                    </button>
+                </div>
+                </div>
+
+            </div>
+            </section>
+        </main>
+    
