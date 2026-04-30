@@ -488,3 +488,13 @@ header {
     gap: .45rem;
     margin-top: 1.75rem;
 }
+
+.about__img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--bdr-light);
+    box-shadow: var(--shadow-lg);
+    display: block;
+}
