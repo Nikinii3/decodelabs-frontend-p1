@@ -6,39 +6,40 @@
         <title> Nikini Madugoda - Frontend Developer | DecodeLabs 2026 </title>
         <link rel = "stylesheet" href="style.css"/>
         <link rel = "proconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel = "preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
     </head>
     <body>
         <header>
-            <nav class "nav container" aria-label="Main Navigation">
+            <nav class="nav container" aria-label="Main Navigation">
                 <a href="#" class="nav__logo"> Nikini<em>.</em>dev</h>
-                <ul class="nav__links" tole="list">
+                <ul class="nav__links" role="list">
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Selected Projects</a></li>
                     <li><a href="#contact" class="nav__cta">Hire Me</a></li>
                 </ul>
+            </nav>    
         </header>
 
 
         <main>
             <!-- Hero section -->
              <section class="hero" aria-labelledby="hero-title">
-                <dev class="hero__innner container">
+                <div class="hero__innner container">
                     <p class="eyebrow">DecodeLabs · Frontend Development · 2026</p>
                     <h1 class="hero__title" id="hero-title">Building the<br><em>web</em> that<br>people see.</h1>
                     <p class="hero__desc">Frontend Developer intern at DecodeLabs. I craft semantic, accessible,
                     and beautifully structured interfaces — because the frontend is the only part of the system the world will ever see.</p>
                     <div class="hero__actions">
-                        <a href="#projects" class="btn btn--solid"> View Projects<span aria-hidden="true"></span></a>
-                        <a href="#contact" class="btn btn--outline" Get in Touch></a>
+                        <a href="#projects" class="btn btn--solid"> View Projects<span aria-hidden="true">→</span></a>
+                        <a href="#contact" class="btn btn--outline"> Get in Touch→</a>
                     </div>
-                </dev>
+                </div>
 
                 <aside aria-label="Profile summary">
                     <div class="hero__card">
-                    <span class="hero__card-badge" aria-albel="Project 1 Active"> Current Proejct · Active</span>
+                    <span class="hero__card-badge" aria-label="Project 1 Active"> Current Proejct · Active</span>
                     <div class="hero__avatar" role="img" aria-label="Nikini Madugoda Avatar"></div>
                     <p class="hero__card-name">Nikini Madugoda</p>
                     <p class="hero__card-role">Frontend Intern · DecodeLabs Batch 2026</p>
@@ -64,40 +65,134 @@
                     </div>    
                 </aside>
              </section>
-        </main>
 
-        <!-- About section -->
-        <section class="about" id="button" aria-labelledby="about-title">
-            <div class="about__grid container">
-                <div class="about__visual">
-                    <img class="about__img" src="Images/Nikini M.png" alt="Aryan Mehta — Frontend Developer Intern at DecodeLabs" width="600" height="800"/>
-                    <div class="about__float-label" aria-hidden="true">
-                        <p class="about__float-label-key">Current Stack</p>
-                        <p class="about__float-label-val">&lt;html&gt; + CSS Grid</p>
+            <!-- About section -->
+            <section class="about" id="about" aria-labelledby="about-title">
+                <div class="about__grid container">
+                    <div class="about__visual">
+                        <img class="about__img" src="Images/Nikini M.png" alt="Aryan Mehta — Frontend Developer Intern at DecodeLabs" width="600" height="800"/>
+                        <div class="about__float-label" aria-hidden="true">
+                            <p class="about__float-label-key">Current Stack</p>
+                            <p class="about__float-label-val">&lt;html&gt; + CSS Grid</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="eyebrow"> Who Am I</p>
+                        <h2 class="heading" id="about-title"> Structure first. <br> Style second.<br><em>Always semantic</em></h2>
+                        <p class="about__text"> I'm Nikini, a frontend developer intern at decode albs (Batch 2026). This project is my 1st Structural phase,
+                            mastering the fundermental relationship between content and style before 
+                            any dynamic logic is touched.
+                        </p>
+                        <p class="about__text"> Greatweb experiences begin witth a solid, meaningful skeleton. A clean DOM
+                            that browsers, screen readers, and search engines all understand equally. 
+                            I built it right from the very first tag.
+                        </p>
+                        <div class="about__chips">
+                            <span class="chip chip--green"> Semantic HTML</span>
+                            <span class="chip chip--green">CSS Grid</span>
+                            <span class="chip chip--green">Flexbox</span>
+                            <span class="chip">BEM Methodology</span>
+                            <span class="chip">W3C Standards</span>
+                            <span class="chip chip--terra">A11y / WCAG</span>
+                        </div>
                     </div>
                 </div>
-
-                <div>
-                    <p class="eyebrow"> Who Am I</p>
-                    <h2 class="about__handling" id="about-title"> Structure first. <br> Style second.<br><em>Always semantic</em></h2>
-                    <p class="about__text"> I'm Nikini, a frontend developer intern at decode albs (Batch 2026). This project is my 1st Structural phase,
-                        mastering the fundermental relationship between content and style before 
-                        any dynamic logic is touched.
-                    </p>
-                    <p class="about__text"> Greatweb experiences begin witth a solid, meaningful skeleton. A clean DOM
-                        that browsers, screen readers, and search engines all understand equally. 
-                        I built it right from the very first tag.
-                    </p>
-                    <div class="about__chips">
-                        <span class="chip chip--green"> Semantic HTML</span>
-                        <span class="chip chip--green">CSS Grid</span>
-                        <span class="chip chip--green">Flexbox</span>
-                        <span class="chip">BEM Methodology</span>
-                        <span class="chip">W3C Standards</span>
-                        <span class="chip chip--terra">A11y / WCAG</span>
-                    </div>
-                </div>
-            </div>
         </section>
 
-    </body>
+        </main>
+
+        <!-- Skills Section -->
+            
+        <section class="skills" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+            <div class="skills__header">
+            <div>
+                <p class="eyebrow">Core Competencies</p>
+                <h2 class="skills__heading" id="skills-title">
+                What I bring<br>to the <em>table</em>
+                </h2>
+            </div>
+            <p class="skills__desc">
+                The technical foundation required to pass the DecodeLabs quality gate —
+                six disciplines every professional frontend developer must master first.
+            </p>
+            </div>
+
+            <div class="skills__grid">
+
+            <article class="skill-card">
+                <div class="skill-card__icon" aria-hidden="true">🏗</div>
+                <h3 class="skill-card__title">Semantic HTML</h3>
+                <p class="skill-card__desc">
+                Proper landmarks — &lt;header&gt;, &lt;main&gt;, &lt;article&gt;, &lt;footer&gt;.
+                One &lt;h1&gt; per page. Tags carry meaning, not just shape.
+                </p>
+                <div class="skill-card__bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="HTML proficiency 88 percent">
+                <div class="skill-card__fill" style="width:88%"></div>
+                </div>
+            </article>
+
+            <article class="skill-card">
+                <div class="skill-card__icon" aria-hidden="true">🎨</div>
+                <h3 class="skill-card__title">CSS Engineering</h3>
+                <p class="skill-card__desc">
+                External stylesheets only. DRY principle with BEM. No inline styles —
+                separation of concerns is non-negotiable.
+                </p>
+                <div class="skill-card__bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" aria-label="CSS proficiency 83 percent">
+                <div class="skill-card__fill" style="width:83%"></div>
+                </div>
+            </article>
+
+            <article class="skill-card">
+                <div class="skill-card__icon" aria-hidden="true">📐</div>
+                <h3 class="skill-card__title">Layout Systems</h3>
+                <p class="skill-card__desc">
+                CSS Grid for macro page architecture. Flexbox for micro component alignment.
+                Right tool for the right dimension — always.
+                </p>
+                <div class="skill-card__bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Layout proficiency 80 percent">
+                <div class="skill-card__fill" style="width:80%"></div>
+                </div>
+            </article>
+
+            <article class="skill-card">
+                <div class="skill-card__icon" aria-hidden="true">♿</div>
+                <h3 class="skill-card__title">Accessibility</h3>
+                <p class="skill-card__desc">
+                Alt text on every image. 4.5:1 contrast ratio. Accessible labels.
+                The web must be perceivable by all users and assistive technologies.
+                </p>
+                <div class="skill-card__bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" aria-label="Accessibility proficiency 76 percent">
+                <div class="skill-card__fill" style="width:76%"></div>
+                </div>
+            </article>
+
+            <article class="skill-card">
+                <div class="skill-card__icon" aria-hidden="true">🗺</div>
+                <h3 class="skill-card__title">Information Architecture</h3>
+                <p class="skill-card__desc">
+                Sitemap before code. Navigation depth under 3 levels. Structure data
+                for findability — entropy is the enemy.
+                </p>
+                <div class="skill-card__bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="IA proficiency 78 percent">
+                <div class="skill-card__fill" style="width:78%"></div>
+                </div>
+            </article>
+
+            <article class="skill-card">
+                <div class="skill-card__icon" aria-hidden="true">✅</div>
+                <h3 class="skill-card__title">Quality Validation</h3>
+                <p class="skill-card__desc">
+                W3C Validator with zero errors. Lighthouse audit. Semantic landmark review.
+                Code does not ship until it passes every gate.
+                </p>
+                <div class="skill-card__bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" aria-label="Validation proficiency 86 percent">
+                <div class="skill-card__fill" style="width:86%"></div>
+                </div>
+            </article>
+
+            </div>
+        </div>
+        </section>
