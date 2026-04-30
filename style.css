@@ -829,3 +829,99 @@ header {
 }
 
 .ipo-item__desc { font-size: .84rem; color: #7a8e78; line-height: 1.65; }
+
+/* =============================================
+    CONTACT
+============================================= */
+.contact { padding-block: 7rem; }
+
+.contact__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: start;
+}
+
+.contact__heading {
+    font-family: var(--font-display);
+    font-size: clamp(2.2rem, 3.5vw, 3.2rem);
+    font-weight: 600;
+    color: var(--txt-dark);
+    line-height: 1.1;
+    letter-spacing: -.02em;
+    margin-bottom: 1rem;
+}
+
+.contact__heading em { font-style: italic; color: var(--clr-forest); }
+
+.contact__desc { color: var(--txt-muted); font-size: .95rem; margin-bottom: 2rem; }
+
+.contact__links { display: flex; flex-direction: column; gap: .65rem; }
+
+.contact__link {
+    display: flex;
+    align-items: center;
+    gap: .9rem;
+    padding: .95rem 1.2rem;
+    background: var(--bg-card);
+    border: 1px solid var(--bdr-light);
+    border-radius: var(--radius-sm);
+    font-size: .85rem;
+    color: var(--txt-body);
+    transition: border-color .2s, transform .2s;
+}
+
+.contact__link:hover {
+    border-color: var(--clr-sage);
+    transform: translateX(4px);
+    color: var(--txt-dark);
+}
+
+.contact__link-icon {
+    width: 32px; height: 32px;
+    border-radius: var(--radius-sm);
+    background: #e5ede3;
+    display: grid;
+    place-items: center;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.form { display: flex; flex-direction: column; gap: 1rem; }
+
+.form__group { display: flex; flex-direction: column; gap: .4rem; }
+
+.form__label {
+    font-size: .72rem;
+    font-weight: 500;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--txt-muted);
+}
+
+.form__input,
+.form__textarea {
+    background: var(--bg-card);
+    border: 1px solid var(--bdr-light);
+    border-radius: var(--radius-sm);
+    padding: .8rem 1rem;
+    color: var(--txt-dark);
+    font-family: var(--font-body);
+    font-size: .88rem;
+    font-weight: 300;
+    transition: border-color .2s, box-shadow .2s;
+    resize: vertical;
+}
+
+.form__input::placeholder,
+.form__textarea::placeholder { color: var(--txt-light); }
+
+.form__input:focus,
+.form__textarea:focus {
+    outline: none;
+    border-color: var(--clr-sage);
+    box-shadow: 0 0 0 3px rgba(107,143,101,.1);
+}
+
+.form__textarea { min-height: 120px; }
+
