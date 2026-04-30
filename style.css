@@ -925,3 +925,77 @@ header {
 
 .form__textarea { min-height: 120px; }
 
+/* =============================================
+    FOOTER
+============================================= */
+footer {
+    border-top: 1px solid var(--bdr-light);
+    padding-block: 2.25rem;
+    background: var(--bg-surface);
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer__logo {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--txt-dark);
+}
+
+.footer__logo em { font-style: italic; color: var(--clr-forest); }
+
+.footer__copy { font-size: .78rem; color: var(--txt-light); }
+
+.footer__nav { display: flex; gap: 1.75rem; }
+
+.footer__nav a {
+    font-size: .78rem;
+    color: var(--txt-muted);
+    letter-spacing: .04em;
+    transition: color .2s;
+}
+
+.footer__nav a:hover { color: var(--clr-forest); }
+
+/* =============================================
+    ANIMATIONS
+============================================= */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero__content > *:nth-child(1) { animation: fadeUp .7s .05s ease both; }
+.hero__content > *:nth-child(2) { animation: fadeUp .7s .15s ease both; }
+.hero__content > *:nth-child(3) { animation: fadeUp .7s .25s ease both; }
+.hero__content > *:nth-child(4) { animation: fadeUp .7s .35s ease both; }
+.hero__card { animation: fadeUp .7s .2s ease both, gentleFloat 6s 1s ease-in-out infinite; }
+
+/* =============================================
+    RESPONSIVE
+============================================= */
+@media (max-width: 960px) {
+    .hero__inner,
+    .about__grid,
+    .philosophy__inner,
+    .contact__inner    { grid-template-columns: 1fr; gap: 3rem; }
+    .skills__header     { grid-template-columns: 1fr; }
+    .skills__grid       { grid-template-columns: 1fr 1fr; }
+    .projects__grid     { grid-template-columns: 1fr; }
+    .proj-card--tall    { grid-row: auto; }
+    .about__float-label { right: 0; }
+    .nav__links         { display: none; }
+}
+
+@media (max-width: 600px) {
+    .skills__grid  { grid-template-columns: 1fr; }
+    .container     { padding-inline: 1.25rem; }
+    .hero__title   { font-size: 2.8rem; }
+}
