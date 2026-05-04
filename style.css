@@ -632,6 +632,20 @@ header {
     transition: border-color .25s, transform .25s, box-shadow .25s;
 }
 
+.proj-card__video {
+    width: 100%;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    border: 1px solid var(--bdr-light);
+    margin-top: 1.25rem;
+}
+
+.proj-card__video video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .proj-card:hover {
     border-color: var(--bdr-medium);
     transform: translateY(-3px);
