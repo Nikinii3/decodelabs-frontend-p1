@@ -11,6 +11,8 @@ A fully semantic, accessible, and professionally designed **static portfolio web
 
 This is **Project 1** of the DecodeLabs Frontend Development internship track (Batch 2026). The goal is to prove mastery of the fundamental relationship between content and style before touching any dynamic logic.
 
+[🔗View Live Site:] https://nikinii3.github.io/decodelabs-frontend-p1/
+
 ---
 
 ## 🗂 Project Structure
